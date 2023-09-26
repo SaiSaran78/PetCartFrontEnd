@@ -52,139 +52,6 @@
   background-color: #0056b3;
   color: #f0f0f0;
 }
-/* .Cats{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border:2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Cats:hover {
-    background-color: #008b8b; 
-}
-.Cat{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-}
-.Dogs{
-    width: 150px;
-    height: 50px;
-    background-color:white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border:2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Dogs:hover {
-    background-color: #008b8b; 
-}
-.Dog{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-}
-
-.Rabbits{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border:2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Rabbits:hover {
-    background-color: #008b8b; 
-}
-.Rabbit{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-}
-.Hamsters{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border:2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Hamsters:hover {
-    background-color: #008b8b; 
-}
-.Hamster{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-}
-.Birds{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border:2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Birds:hover {
-    background-color: #008b8b; 
-}
-.Bird{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-}
-.Fishes{
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    top: 235px;
-    left: 50px;
-    border-radius:15px;
-    border: 2px solid #7FC2D6;
-    transition: background-color 0.3s;
-}
-.Fishes:hover {
-    background-color: #008b8b; 
-}
-.Fish{
-    position: relative;
-    top: 13px;
-    left: 18px;
-    text-align: center;
-    margin-left: -44px;
-    justify-content: center;
-} */
 .AllPetsforcats {
   display: flex;
   gap: 50px;
@@ -257,8 +124,13 @@
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
+.CatImage1:hover {
+  transform: scale(1.1);
+}
+
 .PC {
   position: relative;
   top: 15px;
@@ -304,7 +176,11 @@
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.CatImage2:hover {
+  transform: scale(1.1);
 }
 .SS {
   position: relative;
@@ -345,13 +221,16 @@
   border-radius: 15px;
 }
 .CatImage3 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.CatImage3:hover {
+  transform: scale(1.1);
 }
 .SH {
   position: relative;
@@ -383,7 +262,6 @@
   font-size: 20px;
 }
 .search-container {
-  /* display: flex; */
   align-items: center;
   cursor: pointer;
   margin-left: -50px;
@@ -415,13 +293,16 @@
   border-radius: 15px;
 }
 .DogImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.DogImage:hover {
+  transform: scale(1.1);
 }
 .AH {
   position: relative;
@@ -461,13 +342,16 @@
   border-radius: 15px;
 }
 .DogImage1 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.DogImage1:hover {
+  transform: scale(1.1);
 }
 .AD {
   position: relative;
@@ -477,16 +361,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .Mo12{
-    position: relative;
-    top: 15px;
-    left: -30px;
-    align-content: center;
-    text-align: center;
-    font-weight: normal;
-    color: #A09C9C;
-    font-size: medium;
-} */
 .More {
   width: 75px;
   height: 40px;
@@ -508,13 +382,16 @@
   border-radius: 15px;
 }
 .DogImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.DogImage2:hover {
+  transform: scale(1.1);
 }
 .BHD {
   position: relative;
@@ -545,13 +422,16 @@
   border-radius: 15px;
 }
 .DogImage3 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.DogImage3:hover {
+  transform: scale(1.1);
 }
 .BD {
   position: relative;
