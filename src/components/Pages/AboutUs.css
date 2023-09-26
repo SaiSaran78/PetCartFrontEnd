@@ -1,0 +1,131 @@
+.MYPNSTLH {
+  background-color: #f5f5f5;
+  padding: 0px;
+  text-align: center;
+}
+.MYPNS {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: -50px;
+  position: relative;
+  top: 115px;
+  font-weight: bold;
+}
+.PetThings {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  top: -30px;
+  margin-left: 55px;
+}
+.Animals {
+  width: 400px;
+  height: 150px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.AHC {
+  position: relative;
+  top: 35px;
+  left: 62px;
+}
+.FE {
+  position: relative;
+  font-size: 15px;
+  left: 130px;
+  top: 55px;
+}
+.PetImage {
+  border-radius: 80px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: 40px;
+}
+.EF {
+  width: 400px;
+  height: 150px;
+  background-color: #e9fadf;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BEPF {
+  position: relative;
+  top: 35px;
+  left: 62px;
+}
+.Fe {
+  position: relative;
+  font-size: 15px;
+  left: 130px;
+  top: 55px;
+}
+.PetImages {
+  border-radius: 80px;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  top: -20px;
+  left: 40px;
+}
+.NewCollections {
+  width: 400px;
+  height: 150px;
+  background-color: #f0edf8;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BNCP {
+  position: relative;
+  top: 35px;
+  left: 62px;
+}
+.FEs {
+  position: relative;
+  font-size: 15px;
+  left: 130px;
+  top: 55px;
+}
+.Petimages {
+  border-radius: 80px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: 60px;
+}
+.LargeCollectionPets {
+  width: 1300px;
+  height: 320px;
+  background-color: #d9d9d9;
+  margin-top: 205px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.Petimaged {
+  position: relative;
+  top: 18px;
+}
+.LCCP {
+  margin-top: -235px;
+  margin-left: 900px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Quatation {
+  color: lightslategrey;
+  font-size: 20px;
+  margin-left: 900px;
+}
+.GetStarted {
+  margin-left: 925px;
+  margin-top: -10px;
+}

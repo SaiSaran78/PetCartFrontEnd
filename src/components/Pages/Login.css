@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login {
+  width: 50%;
+  height: 707px;
+  background-color: #c7c7c7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  padding-right: 85px;
+  gap: 20px;
+  z-index: 9999;
+  position: relative;
+}
+h1 {
+  color: lightslategray;
+  margin-top: -300px;
+  font-size: 70px;
+}
+#emailmsg {
+  color: red;
+  margin-top: -20px;
+  position: relative;
+  top: 25px;
+  left: 45px;
+}
+.Email {
+  width: 485px;
+  height: 75px;
+  border-style: hidden;
+  border: none;
+  padding: 5px 10px;
+  border-bottom: 2px solid grey;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+button {
+  color: white;
+  background-color: darkslategray;
+  width: 500px;
+  height: 75px;
+  border-style: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 27px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+.Either {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -10px;
+  margin-top: 15px;
+}
+.Line1 {
+  border-bottom: 2px solid grey;
+  width: 220px;
+  padding-left: 5px;
+  position: relative;
+  left: 60px;
+}
+.Or {
+  font-size: large;
+  margin-left: 5px;
+  position: relative;
+  left: 64px;
+}
+.Line2 {
+  border-bottom: 2px solid grey;
+  width: 220px;
+  margin-left: 95px;
+  position: relative;
+  left: -20px;
+}
+.GoogleButton {
+  width: 485px;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 27px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.Google {
+  position: relative;
+  z-index: 9999;
+  margin-left: -55px;
+  margin-top: 5px;
+  top: 13px;
+  left: -60px;
+  cursor: pointer;
+}
+.CANA {
+  margin-top: 20px;
+}
+.CNA {
+  font-weight: bold;
+  font-size: 20px;
+}
+.Side {
+  background: darkcyan;
+  color: #ffffff;
+  width: 49em;
+  height: 750px;
+  margin-top: -750px;
+  margin-left: 750px;
+}
+.Circle {
+  height: 340px;
+  width: 350px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 65px;
+  position: relative;
+  top: 250px;
+  left: 209px;
+  z-index: 9999;
+  border: transparent;
+  box-shadow: 0px 2px 2px lightgrey;
+}
+.Pet {
+  height: 420px;
+  width: 310px;
+  position: relative;
+  top: 262px;
+  z-index: 999999;
+  left: -141px;
+}
+.Circle1 {
+  height: 225px;
+  width: 230px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: -215px;
+  margin-left: 200px;
+  z-index: 9999;
+  display: block;
+  left: 50px;
+  border: 1px solid white;
+  box-shadow: 0px 2px 2px lightgray;
+}

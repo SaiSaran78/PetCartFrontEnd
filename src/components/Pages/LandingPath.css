@@ -1,0 +1,81 @@
+.AllPetAnimals {
+  background-color: #e3f1f5;
+  width: 1440px;
+  height: 535px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 46px;
+  top: 140px;
+  border-radius: 15px;
+}
+.Details {
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  top: -65px;
+  left: 105px;
+}
+.SomeMore {
+  color: grey;
+  position: relative;
+  top: -40px;
+  left: 110px;
+  font-size: 30px;
+}
+.CustomerCollection {
+  /* background-image: linear-gradient(90deg,#aad6e2); */
+  background-color: #bee0ea;
+  width: 495px;
+  height: 75px;
+  border-radius: 5px;
+  position: relative;
+  left: 100px;
+  top: 10px;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.PeoplesVisits {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.Peoples {
+  font-size: 17px;
+  font-weight: bold;
+}
+.Customers {
+  font-size: 17px;
+  font-weight: bold;
+}
+.NoofCollections {
+  position: relative;
+  top: 10px;
+  left: 90px;
+}
+.CollectionsNumbers {
+  font-size: 17px;
+  font-weight: bold;
+}
+.CollectionHeading {
+  font-size: 17px;
+  font-weight: bold;
+}
+.Explore {
+  position: relative;
+  left: 185px;
+  top: 20px;
+}
+.Explored {
+  width: 130px;
+  height: 45px;
+  position: relative;
+  top: -10px;
+  left: -45px;
+}
+.Petanimals {
+  position: relative;
+  top: 6px;
+  left: 275px;
+}

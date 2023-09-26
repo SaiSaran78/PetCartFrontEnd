@@ -1,0 +1,113 @@
+.OG,
+.OPG {
+  background-color: #fff;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 90px;
+  z-index: 9999;
+  box-shadow: 1px 2px 5px #bbbaba;
+}
+.OGallery,
+.OPetsGallery {
+  font-size: 25px;
+  color: #494444;
+}
+
+.Cutenessandlove {
+  font-size: 25px;
+  color: #494444;
+  margin-bottom: -50px;
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.OFF {
+  font-size: 25px;
+  color: #494444;
+  margin-bottom: -50px;
+  position: relative;
+  top: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.AllPets {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 55px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  max-height: 600px;
+  gap: 30px;
+  scrollbar-width: thick;
+  scrollbar-color: #888888 #f0f0f0;
+}
+.AllAnimalsGallery {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 55px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  max-height: 600px;
+  gap: 30px;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #f0f0f0;
+}
+.AllPets::-webkit-scrollbar {
+  width: 8px;
+}
+.AllPets::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  border-radius: 4px;
+}
+.AllPets::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+.AllPets::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+.AllPetGallery {
+  margin-top: 320px;
+  margin-left: 180px;
+  gap: 25px;
+  display: flex;
+  transform-style: preserve-3d;
+  /* animation: spin 20s linear infinite, */
+  animation: spin 20s linear infinite, fadeIn 0.3s ease forwards;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Gallery1,
+.Gallery2,
+.Gallery3,
+.Gallery4,
+.Gallery5 {
+  width: 200px;
+  height: 200px;
+  background-color: #e3f3f3;
+  border-radius: 15px;
+}

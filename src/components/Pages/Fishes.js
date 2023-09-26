@@ -1,0 +1,110 @@
+import React, { useEffect, useState } from "react";
+import Fishimage from "../../Images/CommonCrap.jpg";
+import FishImage from "../../Images/GoldFish.jpg";
+import Fishimages from "../../Images/Oscar.jpg";
+import Fishimaged from "../../Images/SwordFish.jpg";
+const Fishes = () => {
+  const [showDetails, setShowDetails] = useState({
+    "Common Crap": false,
+    "Sword Fish": false,
+    Oscar: false,
+    "Gold Fish": false,
+  });
+  const toggleDetails = (RabbitName) => {
+    setShowDetails((prevState) => ({
+      ...prevState,
+      [RabbitName]: !prevState[RabbitName],
+    }));
+  };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowDetails({
+        "Common Crap": false,
+        "Sword Fish": false,
+        Oscar: false,
+        "Gold Fish": false,
+      });
+    }, 100000);
+  });
+  return (
+    <div className="AllPetsforFish">
+      <div className="CommonCrap">
+        <img
+          className="FishImage"
+          src={Fishimage}
+          alt="petanimals"
+          width="200px"
+          height="200px"
+        />
+        <h4 className="CC">Common Crap</h4>
+        <h4 className="Lifespan">47Yrs Span</h4>
+        <button className="More" onClick={() => toggleDetails("Common Crap")}>
+          {showDetails["Common Crap"] ? "Less" : "More"}
+        </button>
+        {showDetails["Common Crap"] && (
+          <div>
+            <p>Additional details about the Scottish Fold cat.</p>
+          </div>
+        )}
+      </div>
+      <div className="SwordFish">
+        <img
+          className="FishImage1"
+          src={Fishimaged}
+          alt="petanimals"
+          width="200px"
+          height="200px"
+        />
+        <h4 className="SF">Sword Fish</h4>
+        <h4 className="Lifespan">9yrs Span</h4>
+        <button className="More" onClick={() => toggleDetails("Sword Fish")}>
+          {showDetails["Sword Fish"] ? "Less" : "More"}
+        </button>
+        {showDetails["Sword Fish"] && (
+          <div>
+            <p>Additional details about the Scottish Fold cat.</p>
+          </div>
+        )}
+      </div>
+      <div className="Oscar">
+        <img
+          className="FishImage2"
+          src={Fishimages}
+          alt="petanimals"
+          width="200px"
+          height="200px"
+        />
+        <h4 className="O">Oscar</h4>
+        <h4 className="Lifespan">10-20yrs Span</h4>
+        <button className="More" onClick={() => toggleDetails("Oscar")}>
+          {showDetails["Oscar"] ? "Less" : "More"}
+        </button>
+        {showDetails["Oscar"] && (
+          <div>
+            <p>Additional details about the Scottish Fold cat.</p>
+          </div>
+        )}
+      </div>
+      <div className="GoldFish">
+        <img
+          className="FishImage3"
+          src={FishImage}
+          alt="petanimals"
+          width="200px"
+          height="200px"
+        />
+        <h4 className="GF">Gold Fish</h4>
+        <h4 className="Lifespan">30Yrs Span</h4>
+        <button className="More" onClick={() => toggleDetails("Gold Fish")}>
+          {showDetails["Gold Fish"] ? "Less" : "More"}
+        </button>
+        {showDetails["Gold Fish"] && (
+          <div>
+            <p>Additional details about the Scottish Fold cat.</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+export default Fishes;

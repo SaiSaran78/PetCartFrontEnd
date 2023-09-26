@@ -1,0 +1,1305 @@
+.OBCS {
+  background-color: #f5f5f5;
+  padding: 0px;
+  text-align: center;
+}
+.OBC {
+  font-size: 25px;
+  color: #838181;
+  margin-bottom: -50px;
+  position: relative;
+  top: 125px;
+  font-weight: bold;
+}
+.allnames {
+  display: flex;
+  gap: 40px;
+  /* position: relative; 
+    top: -30px; */
+  margin-left: 145px;
+  margin-top: -90px;
+}
+.animal-option {
+  /* width: 150px;
+    height: 50px; */
+  background-color: white;
+  position: relative;
+  top: 235px;
+  left: 50px;
+  border-radius: 15px;
+  /* border:2px solid #7FC2D6; */
+  /* transition: background-color 0.3s; */
+}
+.button {
+  /* background-color: #f0f0f0; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* padding: 10px 20px; */
+  margin: 0 10px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #ddd;
+}
+.button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+.button.active:hover {
+  background-color: #0056b3;
+  color: #f0f0f0;
+}
+/* .Cats{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border:2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Cats:hover {
+    background-color: #008b8b; 
+}
+.Cat{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+}
+.Dogs{
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border:2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Dogs:hover {
+    background-color: #008b8b; 
+}
+.Dog{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+}
+
+.Rabbits{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border:2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Rabbits:hover {
+    background-color: #008b8b; 
+}
+.Rabbit{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+}
+.Hamsters{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border:2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Hamsters:hover {
+    background-color: #008b8b; 
+}
+.Hamster{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+}
+.Birds{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border:2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Birds:hover {
+    background-color: #008b8b; 
+}
+.Bird{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+}
+.Fishes{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 235px;
+    left: 50px;
+    border-radius:15px;
+    border: 2px solid #7FC2D6;
+    transition: background-color 0.3s;
+}
+.Fishes:hover {
+    background-color: #008b8b; 
+}
+.Fish{
+    position: relative;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+    margin-left: -44px;
+    justify-content: center;
+} */
+.AllPetsforcats {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.ScottishFold {
+  width: 240px;
+  height: 340px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.CatImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 210px;
+  position: relative;
+  top: 12px;
+  left: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.CatImage:hover {
+  transform: scale(1.1);
+}
+.SF {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+}
+.Mo8 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.PersianCat {
+  width: 240px;
+  height: 325px;
+  background-color: #e6d8f2;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.CatImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.PC {
+  position: relative;
+  top: 15px;
+  left: -35px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.Mo12 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Snoeshoe {
+  width: 240px;
+  height: 325px;
+  background-color: #deddfd;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.CatImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.SS {
+  position: relative;
+  top: 15px;
+  left: -26px;
+  align-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.Mo6 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Shorthair {
+  width: 240px;
+  height: 325px;
+  background-color: #f6ebeb;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.CatImage3 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.SH {
+  position: relative;
+  top: 15px;
+  left: -35px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.Mo6 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.search-container {
+  /* display: flex; */
+  align-items: center;
+  cursor: pointer;
+  margin-left: -50px;
+  margin-top: 10px;
+}
+.search-input-field {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  margin-left: 10px;
+}
+.SearchandCart {
+  display: flex;
+  position: relative;
+}
+.AllPetsforDogs {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.AfghanHounds {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.DogImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.AH {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespan {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AkitaDogs {
+  width: 240px;
+  height: 325px;
+  background-color: #f6ebeb;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.DogImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.AD {
+  position: relative;
+  top: 15px;
+  left: -35px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+/* .Mo12{
+    position: relative;
+    top: 15px;
+    left: -30px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    color: #A09C9C;
+    font-size: medium;
+} */
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.BassetHoundDog {
+  width: 240px;
+  height: 325px;
+  background-color: #deddfd;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.DogImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.BHD {
+  position: relative;
+  top: 15px;
+  left: -26px;
+  align-content: center;
+  text-align: center;
+  font-size: 22px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.BullDog {
+  width: 240px;
+  height: 325px;
+  background-color: #e6d8f2;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.DogImage3 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.BD {
+  position: relative;
+  top: 15px;
+  left: -35px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 145px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AllPetsforRabbit {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.AlaskaSchwarzRabbit {
+  width: 240px;
+  height: 325px;
+  background-color: #e6d8f2;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.RabbitImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ASR {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespan {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AmericanRabbit {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.RabbitImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.AR {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+/* .Mo12{
+    position: relative;
+    top: 15px;
+    left: -30px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    color: #A09C9C;
+    font-size: medium;
+} */
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AngoraRabbit {
+  width: 240px;
+  height: 325px;
+  background-color: #f6ebeb;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.RabbitImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ANR {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.ArgenteRabbit {
+  width: 240px;
+  height: 325px;
+  background-color: #deddfd;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.RabbitImage3 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ARR {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AllPetsforHamster {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.CampbellsRussianDrawf {
+  width: 240px;
+  height: 325px;
+  background-color: #deddfd;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.HamsterImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CRD {
+  position: relative;
+  top: 15px;
+  left: -12px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespan {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.ChineseHamster {
+  width: 240px;
+  height: 325px;
+  background-color: #f6ebeb;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.HamsterImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CH {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+/* .Mo12{
+    position: relative;
+    top: 15px;
+    left: -30px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    color: #A09C9C;
+    font-size: medium;
+} */
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.RoboDrawf {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.HamsterImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.RD {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.SyrianHamster {
+  width: 240px;
+  height: 325px;
+  background-color: #e6d8f2;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.HamsterImage3 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.SH {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.AllPetsforBirds {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.AfricanGrey {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BirdImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.AG {
+  position: relative;
+  top: 15px;
+  left: -12px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespan {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.ChatteringLory {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BirdImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CL {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+/* .Mo12{
+    position: relative;
+    top: 15px;
+    left: -30px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    color: #A09C9C;
+    font-size: medium;
+} */
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.EclectusParrot {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BirdImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.EP {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.GreyCocktiel {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.BirdImage3 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.GC {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.AllPetsforFish {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+.CommonCrap {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.FishImage {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CC {
+  position: relative;
+  top: 15px;
+  left: -12px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespan {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.SwordFish {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.FishImage1 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.SF {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+/* .Mo12{
+    position: relative;
+    top: 15px;
+    left: -30px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    color: #A09C9C;
+    font-size: medium;
+} */
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Oscar {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.FishImage2 {
+  /* border-radius: 80px; */
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.O {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.GoldFish {
+  width: 240px;
+  height: 325px;
+  background-color: #e3f3f3;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.FishImage3 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.GF {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.More {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top: -25px;
+  left: 155px;
+  background-color: #e3f3f3;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.ScottishFold:hover,
+.PersianCat:hover,
+.Snoeshoe:hover,
+.Shorthair:hover {
+  height: 380px;
+}
+.AfghanHounds:hover,
+.AkitaDogs:hover,
+.BassetHoundDog:hover,
+.BullDog:hover {
+  height: 380px;
+}
+.AlaskaSchwarzRabbit:hover,
+.AmericanRabbit:hover,
+.AngoraRabbit:hover,
+.ArgenteRabbit:hover {
+  height: 380px;
+}
+.CampbellsRussianDrawf:hover,
+.ChineseHamster:hover,
+.RoboDrawf:hover,
+.SyrianHamstert:hover {
+  height: 380px;
+}
+.AfricanGrey:hover,
+.ChatteringLory:hover,
+.EclectusParrot:hover,
+.GreyCocktiel:hover {
+  height: 380px;
+}
+.CommonCrap:hover,
+.SwordFish:hover,
+.Oscar:hover,
+.GoldFish:hover {
+  height: 380px;
+}
+p {
+  margin-top: -22px;
+}
