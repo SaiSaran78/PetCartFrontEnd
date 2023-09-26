@@ -111,6 +111,11 @@ const SignUP = () => {
             </Link>
           </div>
         </form>
+        <div className="AHAccount">
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <p className="ANA">Create a New Account ?</p>
+          </Link>
+        </div>
       </div>
 
       <div className="Side">
