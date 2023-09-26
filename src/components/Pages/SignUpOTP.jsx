@@ -3,7 +3,7 @@ import './SignUpOTP.css';
 import Petimage from '../../Images/Image2.png';
 import Button,{Popup,Loader} from "../Assets/components";
 import { Link, useNavigate } from "react-router-dom";
-const SignUpOTP=()=>{
+const SignUpOTP=({update})=>{
     const nav = useNavigate()
     const checkInput =(e)=>{
         const pattern = /[0-9 \d]/
@@ -112,6 +112,7 @@ const SignUpOTP=()=>{
                                 message: ""
 
                             })
+                            update("Loggedin")
                             nav('/LandingPath')
                     },1000);
                         }, 2000);

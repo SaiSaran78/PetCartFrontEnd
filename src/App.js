@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/SignUp" element={<SignUP />} />
-          <Route path="/SignUpOTP" element={<SignUpOTP />} />
+          <Route path="/SignUpOTP" element={<SignUpOTP update={loginStatus}/>} />
           <Route path="/" element={<Login />} />
           <Route path="/OTP" element={<OTP update={loginStatus} />} />
           <Route
