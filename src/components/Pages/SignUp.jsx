@@ -113,7 +113,7 @@ const SignUP = () => {
         </form>
         <div className="AHAccount">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <p className="ANA">Create a New Account ?</p>
+            <p className="ANA">Already Have a Account ?</p>
           </Link>
         </div>
       </div>
