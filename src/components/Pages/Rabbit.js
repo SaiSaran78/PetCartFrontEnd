@@ -46,7 +46,9 @@ const Rabbit = () => {
         </button>
         {showDetails["AlaskaSchwarz Rabbit"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -68,7 +70,9 @@ const Rabbit = () => {
         </button>
         {showDetails["American Rabbit"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -87,7 +91,9 @@ const Rabbit = () => {
         </button>
         {showDetails["Angora Rabbit"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -109,7 +115,9 @@ const Rabbit = () => {
         </button>
         {showDetails["Argente Rabbit"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>

@@ -46,7 +46,9 @@ const Hamster = () => {
         </button>
         {showDetails["CampbellsRussian Drawf"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -68,7 +70,9 @@ const Hamster = () => {
         </button>
         {showDetails["Chinese Hamster"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -87,7 +91,9 @@ const Hamster = () => {
         </button>
         {showDetails["Robo Drawf"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -109,7 +115,9 @@ const Hamster = () => {
         </button>
         {showDetails["Syrian Hamster"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>

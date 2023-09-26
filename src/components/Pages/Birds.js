@@ -43,7 +43,9 @@ const Birds = () => {
         </button>
         {showDetails["African Grey"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -65,7 +67,9 @@ const Birds = () => {
         </button>
         {showDetails["Chattering Lory"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -87,7 +91,9 @@ const Birds = () => {
         </button>
         {showDetails["Eclectus Parrot"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -106,7 +112,9 @@ const Birds = () => {
         </button>
         {showDetails["Grey Cocktiel"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>

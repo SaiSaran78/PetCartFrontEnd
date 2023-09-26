@@ -43,7 +43,9 @@ const Fishes = () => {
         </button>
         {showDetails["Common Crap"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -62,7 +64,9 @@ const Fishes = () => {
         </button>
         {showDetails["Sword Fish"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -81,7 +85,9 @@ const Fishes = () => {
         </button>
         {showDetails["Oscar"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
@@ -100,7 +106,9 @@ const Fishes = () => {
         </button>
         {showDetails["Gold Fish"] && (
           <div>
-            <p>Additional details about the Scottish Fold cat.</p>
+            <p>HINDUSTAN CATTERY
+              <br />
+              Pedigree Food</p>
           </div>
         )}
       </div>
