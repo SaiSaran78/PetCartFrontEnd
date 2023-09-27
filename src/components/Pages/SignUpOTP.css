@@ -74,7 +74,7 @@ h4 {
   font-size: 20px;
 }
 
-button {
+/* button {
   color: white;
   background-color: darkslategray;
   width: 365px;
@@ -88,7 +88,7 @@ button {
   position: relative;
   top: 25px;
   left: -32px;
-}
+} */
 .Either1 {
   align-items: center;
   justify-content: center;
