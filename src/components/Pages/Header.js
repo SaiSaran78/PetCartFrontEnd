@@ -4,21 +4,21 @@ import Petimage from "../../Images/Image2.png";
 import { Link, useNavigate } from "react-router-dom";
 import { BsSearch, BsFillCartFill } from "react-icons/bs";
 import Button from "../Assets/components";
-import LandingPath from "./LandingPath";
 import AboutUs from "./AboutUs";
 import Collections from "./Collections";
 import Gallery from "./Gallery.jsx";
 import Cart from "./Cart";
 import LoginDropDown from "./LoginDropDown";
+import Home from "./LandingPath";
 const Header = (props) => {
   const [selectedAnimal, setSelectedAnimal] = useState("cats");
   const navigate = useNavigate();
   const [selectedAccountOption, setSelectedAccountOption] = useState(null);
   const [currentPage, setCurrentPage] = useState({
-    LandingPath: false,
-    AboutUs: false,
-    Collections: false,
-    Gallery: false,
+    home: false,
+    aboutus: false,
+    collections: false,
+    gallery: false,
   });
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchValue, setSearchValue] = useState("");
@@ -82,18 +82,18 @@ const Header = (props) => {
 
   const renderpage = () => {
     switch (currentPage) {
-      case "LandingPath":
-        return <LandingPath />;
-      case "AboutUs":
+      case "home":
+        return <Home />;
+      case "aboutus":
         return <AboutUs />;
-      case "Collections":
+      case "collections":
         return (
           <Collections
             selectedAnimal={selectedAnimal}
             setSelectedAnimal={setSelectedAnimal}
           />
         );
-      case "Gallery":
+      case "gallery":
         return <Gallery />;
       default:
         return null;
@@ -123,7 +123,7 @@ const Header = (props) => {
         </div>
         <div className="Home">
           <Link
-            to="/LandingPath"
+            to="/home"
             style={{ color: "white", textDecoration: "none" }}
           >
             <h4>Home</h4>
@@ -131,7 +131,7 @@ const Header = (props) => {
         </div>
         <div className="AboutUs">
           <Link
-            to="/AboutUs"
+            to="/aboutus"
             style={{ color: "white", textDecoration: "none" }}
           >
             <h4>About Us</h4>
@@ -139,7 +139,7 @@ const Header = (props) => {
         </div>
         <div className="Collections">
           <Link
-            to="/Collections"
+            to="/collections"
             style={{ color: "white", textDecoration: "none" }}
           >
             <h4>Collections</h4>
@@ -147,7 +147,7 @@ const Header = (props) => {
         </div>
         <div className="Gallery">
           <Link
-            to="/Gallery"
+            to="/gallery"
             style={{ color: "white", textDecoration: "none" }}
           >
             <h4>Gallery</h4>
@@ -173,7 +173,7 @@ const Header = (props) => {
               />
             )}
           </div>
-          <Link to="/Cart">
+          <Link to="/cart">
             <BsFillCartFill size="1.5rem" color="white" className="Cart" />
           </Link>
         </div>

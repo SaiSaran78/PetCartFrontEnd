@@ -113,7 +113,7 @@ const SignUpOTP=({update})=>{
 
                             })
                             update("Loggedin")
-                            nav('/LandingPath')
+                            nav('/landingpath')
                     },1000);
                         }, 2000);
             } else {

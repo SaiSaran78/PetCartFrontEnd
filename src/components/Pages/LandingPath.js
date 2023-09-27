@@ -2,8 +2,9 @@ import React from "react";
 import "./LandingPath.css";
 import Petanimals from "../../Images/Image3.jpg";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
-const LandingPath = (props) => {
+const Home = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
@@ -26,7 +27,7 @@ const LandingPath = (props) => {
             </div>
             <div>
               <div className="Explore">
-                <button className="Explored">Explore</button>
+                <Link to ='/collections'><button className="Explored">Explore</button></Link>
               </div>
             </div>
           </div>
@@ -44,4 +45,4 @@ const LandingPath = (props) => {
     </div>
   );
 };
-export default LandingPath;
+export default Home;

@@ -102,7 +102,7 @@ const SignUP = () => {
             )}
           </div>
           <div>
-            <Link to="/SignUpOTP">
+            <Link to="/signupotp">
               <Button
                 type="submit"
                 value="Send OTP"

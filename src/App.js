@@ -3,7 +3,7 @@ import SignUP from "./components/Pages/SignUp";
 import Login from "./components/Pages/Login";
 import OTP from "./components/Pages/OTP";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPath from "./components/Pages/LandingPath";
+import Home from "./components/Pages/LandingPath";
 import AboutUs from "./components/Pages/AboutUs";
 import Collections from "./components/Pages/Collections";
 import Gallery from "./components/Pages/Gallery";
@@ -19,28 +19,28 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/SignUp" element={<SignUP />} />
-          <Route path="/SignUpOTP" element={<SignUpOTP update={loginStatus}/>} />
+          <Route path="/signup" element={<SignUP />} />
+          <Route path="/signupotp" element={<SignUpOTP update={loginStatus}/>} />
           <Route path="/" element={<Login />} />
-          <Route path="/OTP" element={<OTP update={loginStatus} />} />
+          <Route path="/otp" element={<OTP update={loginStatus} />} />
           <Route
-            path="/LandingPath"
-            element={<LandingPath update={loginStatus} status={status} />}
+            path="/home"
+            element={<Home update={loginStatus} status={status} />}
           />
           <Route
-            path="/AboutUS"
+            path="/aboutus"
             element={<AboutUs update={loginStatus} status={status} />}
           />
           <Route
-            path="/Collections"
+            path="/collections"
             element={<Collections update={loginStatus} status={status} />}
           />
           <Route
-            path="/Gallery"
+            path="/gallery"
             element={<Gallery update={loginStatus} status={status} />}
           />
           <Route
-            path="/Cart"
+            path="/cart"
             element={<Cart update={loginStatus} status={status} />}
           />
           <Route

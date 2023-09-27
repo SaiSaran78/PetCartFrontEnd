@@ -111,7 +111,7 @@ const OTP = ({update}) => {
               message: "",
             });
             update("Loggedin")
-            nav("/LandingPath");
+            nav("/home");
           }, 1000);
         }, 2000);
       } else {

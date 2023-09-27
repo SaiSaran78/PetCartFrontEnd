@@ -96,7 +96,7 @@ const Login = () => {
             popup_error: "popup_success",
           });
 
-          nav("/OTP");
+          nav("/otp");
         }, 1000);
       }, 2000);
     }

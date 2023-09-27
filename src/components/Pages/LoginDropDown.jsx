@@ -59,7 +59,7 @@ const LoginDropDown = ({update}) => {
               </Link>
             </li>
             <li className="list-group-item" >
-              <Link to="/Landingpath" onClick={() => handleItemClick("Logout")}>
+              <Link to="/home" onClick={() => handleItemClick("Logout")}>
                 Logout
               </Link>
             </li>
