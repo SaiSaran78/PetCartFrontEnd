@@ -62,7 +62,23 @@ const Login = () => {
     let flag = false;
 
     if (value.email === "") {
-      previousErrors.email = { required: true, userNotFound: false };
+      // previousErrors.email = { required: true, userNotFound: false };
+      setLoader("block");
+      setTimeout(() => {
+        setPopup({
+          popup_status: "block",
+          popup_error: "popup_error",
+          message: "Enter an Email address",
+        });
+        setLoader("none");
+        setTimeout(() => {
+          setPopup({
+            popup_status: "none",
+            popup_error: "popup_error",
+            message: "",
+          });
+        }, 1000);
+      }, 2000);
     } else if (!validEmails.includes(value.email)) {
 
       setLoader("block");
@@ -119,14 +135,14 @@ const Login = () => {
               ref={emailRef}
             />
           </div>
-          <div>
+          {/* <div>
             {error.email.required ? (
               <p id="emailmsg">Enter an email address</p>
             ) : null}
             {error.email.invalid ? (
               <p id="emailmsg">Enter a valid email address</p>
             ) : null}
-          </div>
+          </div> */}
           <div>
             <Button
               type="submit"
