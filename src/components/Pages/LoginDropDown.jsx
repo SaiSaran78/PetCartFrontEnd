@@ -3,7 +3,7 @@ import "./LoginDropDown.css";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-const LoginDropDown = ({update}) => {
+const LoginDropDown = ({ update }) => {
   const [open, setOpen] = useState(false);
   const [buttonLabel, setButtonLabel] = useState("Logout");
   const [timeoutId, setTimeoutId] = useState(null);
@@ -12,25 +12,26 @@ const LoginDropDown = ({update}) => {
     setOpen(!open);
   };
 
-  const handleItemClick = (item) => {
+  const handleItemClick = (e, item) => {
     update("item");
+    e.preventdefault();
     if (item === "Your Account") {
       setButtonLabel("Your Account");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Your Account");
-      }, 100000);
+      });
       setTimeoutId(newTimeoutId);
-    }else if(item === "Your Order"){
+    } else if (item === "Your Order") {
       setButtonLabel("Your Order");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Your Order");
-      }, 100000);
+      });
       setTimeoutId(newTimeoutId);
-    }else if(item === "Logout"){
+    } else if (item === "Logout") {
       setButtonLabel("Logout");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Logout");
-      }, 100000);
+      });
       setTimeoutId(newTimeoutId);
     }
   };
@@ -62,14 +63,11 @@ const LoginDropDown = ({update}) => {
               </Link>
             </li>
             <li className="list-group-item">
-              <Link
-                to="/orders"
-                onClick={() => handleItemClick("Your Order")}
-              >
+              <Link to="/orders" onClick={() => handleItemClick("Your Order")}>
                 Your Order
               </Link>
             </li>
-            <li className="list-group-item" >
+            <li className="list-group-item">
               <Link to="/home" onClick={() => handleItemClick("Logout")}>
                 Logout
               </Link>

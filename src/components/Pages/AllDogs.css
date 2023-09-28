@@ -1,0 +1,106 @@
+.afghanhounds {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.dogImage {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.AHs {
+  position: relative;
+  top: 100px;
+  left: -600px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespane {
+  position: relative;
+  top: 100px;
+  left: -600px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.akitaDogs {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.dogImage1 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.ADs {
+  position: relative;
+  top: 100px;
+  left: -600px;
+  align-content: center;
+  text-align: center;
+}
+.bassetHound {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.dogImage2 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.BHDs {
+  position: relative;
+  top: 100px;
+  left: -600px;
+  align-content: center;
+  text-align: center;
+}
+.bullDog {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.dogImage3 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.BDs {
+  position: relative;
+  top: 100px;
+  left: -600px;
+  align-content: center;
+  text-align: center;
+}

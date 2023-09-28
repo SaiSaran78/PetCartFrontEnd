@@ -1,0 +1,105 @@
+.campbellsRussianDrawf {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.hamsterImage {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CRDs {
+  position: relative;
+  top: 15px;
+  left: -12px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespans {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.chineseHamster {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.HamsterImage1 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.CHs {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.roboDrawf {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.hamsterImage2 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.RDs {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.syrianHamster {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.hamsterImage3 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.SHs {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}

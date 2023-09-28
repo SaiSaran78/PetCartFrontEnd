@@ -3,10 +3,12 @@ import Catimage from "../../Images/Imaged1.jpeg";
 import CatImage from "../../Images/Imaged3.jpeg";
 import Catimages from "../../Images/Imaged4.jpeg";
 import Catimaged from "../../Images/Imaged5.jpeg";
+// import ScottishFoldCat from "./ScottishFoldCat";
+import { Link } from "react-router-dom";
 const Cat = () => {
   const [showDetails, setShowDetails] = useState({
-    "Scottish Fold": false,
-    "Persian Cat": false,
+    ScottishFold: false,
+    PersianCat: false,
     Snoeshoe: false,
     Shorthair: false,
   });
@@ -29,14 +31,16 @@ const Cat = () => {
   return (
     <div className="AllPetsforcats">
       <div className="ScottishFold">
-        <img
-          className="CatImage"
-          src={Catimage}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="SF">Scottish Fold</h4>
+        <Link to="/scottishfoldcat" style={{ textDecoration: "none" }}>
+          <img
+            className="CatImage"
+            src={Catimage}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="SF">Scottish Fold</h4>
+        </Link>
         <h4 className="Mo8">8 Months Old</h4>
         <button className="More" onClick={() => toggleDetails("Scottish Fold")}>
           {showDetails["Scottish Fold"] ? "Less" : "More"}
@@ -51,15 +55,18 @@ const Cat = () => {
           </div>
         )}
       </div>
+
       <div className="PersianCat">
-        <img
-          className="CatImage1"
-          src={Catimaged}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="PC">Persian Cat</h4>
+        <Link to="/persiancat" style={{ textDecoration: "none" }}>
+          <img
+            className="CatImage1"
+            src={Catimaged}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="PC">Persian Cat</h4>
+        </Link>
         <h4 className="Mo12">12 Months Old</h4>
         <button className="More" onClick={() => toggleDetails("Persian Cat")}>
           {showDetails["Persian Cat"] ? "Less" : "More"}
@@ -74,15 +81,18 @@ const Cat = () => {
           </div>
         )}
       </div>
+
       <div className="Snoeshoe">
-        <img
-          className="CatImage2"
-          src={Catimages}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="SS">Snoeshoe</h4>
+        <Link to="/snoeshoe" style={{ textDecoration: "none" }}>
+          <img
+            className="CatImage2"
+            src={Catimages}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="SS">Snoeshoe</h4>
+        </Link>
         <h4 className="Mo6">6 Months Old</h4>
         <button className="More" onClick={() => toggleDetails("Snoeshoe")}>
           {showDetails["Snoeshoe"] ? "Less" : "More"}
@@ -98,14 +108,16 @@ const Cat = () => {
         )}
       </div>
       <div className="Shorthair">
-        <img
-          className="CatImage3"
-          src={CatImage}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="SH">Shorthair</h4>
+        <Link to="/shorthair" style={{ textDecoration: "none" }}>
+          <img
+            className="CatImage3"
+            src={CatImage}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="SH">Shorthair</h4>
+        </Link>
         <h4 className="Mo6">6 Months Old</h4>
         <button className="More" onClick={() => toggleDetails("Shorthair")}>
           {showDetails["Shorthair"] ? "Less" : "More"}

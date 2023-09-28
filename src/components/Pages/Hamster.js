@@ -3,6 +3,7 @@ import Hamsterimage from "../../Images/Campbells russian dwarf.avif";
 import HamsterImage from "../../Images/Chinese hamster.webp";
 import Hamsterimages from "../../Images/robo dwarf.avif";
 import Hamsterimaged from "../../Images/SyrianHamster.avif";
+import { Link } from "react-router-dom";
 const Hamster = () => {
   const [showDetails, setShowDetails] = useState({
     "CampbellsRussian Drawf": false,
@@ -29,15 +30,17 @@ const Hamster = () => {
   return (
     <div className="AllPetsforHamster">
       <div className="CampbellsRussianDrawf">
-        <img
-          className="HamsterImage"
-          src={Hamsterimage}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="CRD">CampbellsRussian</h4>
-        <h4 className="Lifespan">2.5-3Yrs span</h4>
+        <Link to="/campbellsrussian" style={{ textDecoration: "none" }}>
+          <img
+            className="HamsterImage"
+            src={Hamsterimage}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="CRD">CampbellsRussian</h4>
+          <h4 className="Lifespan">2.5-3Yrs span</h4>
+        </Link>
         <button
           className="More"
           onClick={() => toggleDetails("CampbellsRussian Drawf")}
@@ -46,22 +49,26 @@ const Hamster = () => {
         </button>
         {showDetails["CampbellsRussian Drawf"] && (
           <div>
-            <p>HINDUSTAN CATTERY
+            <p>
+              HINDUSTAN CATTERY
               <br />
-              Pedigree Food</p>
+              Pedigree Food
+            </p>
           </div>
         )}
       </div>
       <div className="ChineseHamster">
-        <img
-          className="HamsterImage1"
-          src={HamsterImage}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="CH">ChineseHamster</h4>
-        <h4 className="Lifespan">2.5-3yrs span</h4>
+        <Link to="/chinesehamster" style={{ textDecoration: "none" }}>
+          <img
+            className="HamsterImage1"
+            src={HamsterImage}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="CH">ChineseHamster</h4>
+          <h4 className="Lifespan">2.5-3yrs span</h4>
+        </Link>
         <button
           className="More"
           onClick={() => toggleDetails("Chinese Hamster")}
@@ -70,43 +77,51 @@ const Hamster = () => {
         </button>
         {showDetails["Chinese Hamster"] && (
           <div>
-            <p>HINDUSTAN CATTERY
+            <p>
+              HINDUSTAN CATTERY
               <br />
-              Pedigree Food</p>
+              Pedigree Food
+            </p>
           </div>
         )}
       </div>
       <div className="RoboDrawf">
-        <img
-          className="HamsterImage2"
-          src={Hamsterimages}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="RD">RoboDrawf</h4>
-        <h4 className="Lifespan">3yrs span</h4>
+        <Link to="/robodrawf" style={{ textDecoration: "none" }}>
+          <img
+            className="HamsterImage2"
+            src={Hamsterimages}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="RD">RoboDrawf</h4>
+          <h4 className="Lifespan">3yrs span</h4>
+        </Link>
         <button className="More" onClick={() => toggleDetails("Robo Drawf")}>
           {showDetails["Robo Drawf"] ? "Less" : "More"}
         </button>
         {showDetails["Robo Drawf"] && (
           <div>
-            <p>HINDUSTAN CATTERY
+            <p>
+              HINDUSTAN CATTERY
               <br />
-              Pedigree Food</p>
+              Pedigree Food
+            </p>
           </div>
         )}
       </div>
       <div className="SyrianHamster">
-        <img
-          className="HamsterImage3"
-          src={Hamsterimaged}
-          alt="petanimals"
-          width="200px"
-          height="200px"
-        />
-        <h4 className="SH">SyrianHamster</h4>
-        <h4 className="Lifespan">2-3yrs span</h4>
+        <Link to="/robodrawf" style={{ textDecoration: "none" }}>
+          <img
+            className="HamsterImage3"
+            src={Hamsterimaged}
+            alt="petanimals"
+            width="200px"
+            height="200px"
+          />
+          <h4 className="SH">SyrianHamster</h4>
+          <h4 className="Lifespan">2-3yrs span</h4>
+        </Link>
         <button
           className="More"
           onClick={() => toggleDetails("Syrian Hamster")}
@@ -115,9 +130,11 @@ const Hamster = () => {
         </button>
         {showDetails["Syrian Hamster"] && (
           <div>
-            <p>HINDUSTAN CATTERY
+            <p>
+              HINDUSTAN CATTERY
               <br />
-              Pedigree Food</p>
+              Pedigree Food
+            </p>
           </div>
         )}
       </div>

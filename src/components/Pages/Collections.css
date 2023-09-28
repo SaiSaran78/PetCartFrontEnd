@@ -14,27 +14,19 @@
 .allnames {
   display: flex;
   gap: 40px;
-  /* position: relative; 
-    top: -30px; */
   margin-left: 145px;
   margin-top: -90px;
 }
 .animal-option {
-  /* width: 150px;
-    height: 50px; */
   background-color: white;
   position: relative;
   top: 235px;
   left: 50px;
   border-radius: 15px;
-  /* border:2px solid #7FC2D6; */
-  /* transition: background-color 0.3s; */
 }
 .button {
-  /* background-color: #f0f0f0; */
   border: 1px solid #ccc;
   border-radius: 5px;
-  /* padding: 10px 20px; */
   margin: 0 10px;
   cursor: pointer;
   width: 150px;
@@ -68,7 +60,6 @@
   border-radius: 15px;
 }
 .CatImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 210px;
   position: relative;
@@ -468,13 +459,16 @@
   border-radius: 15px;
 }
 .RabbitImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.RabbitImage:hover {
+  transform: scale(1.1);
 }
 .ASR {
   position: relative;
@@ -514,13 +508,16 @@
   border-radius: 15px;
 }
 .RabbitImage1 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.RabbitImage1:hover {
+  transform: scale(1.1);
 }
 .AR {
   position: relative;
@@ -530,16 +527,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .Mo12{
-    position: relative;
-    top: 15px;
-    left: -30px;
-    align-content: center;
-    text-align: center;
-    font-weight: normal;
-    color: #A09C9C;
-    font-size: medium;
-} */
 .More {
   width: 75px;
   height: 40px;
@@ -561,13 +548,16 @@
   border-radius: 15px;
 }
 .RabbitImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.RabbitImage2:hover {
+  transform: scale(1.1);
 }
 .ANR {
   position: relative;
@@ -598,13 +588,16 @@
   border-radius: 15px;
 }
 .RabbitImage3 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.RabbitImage3:hover {
+  transform: scale(1.1);
 }
 .ARR {
   position: relative;
@@ -641,13 +634,16 @@
   border-radius: 15px;
 }
 .HamsterImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.HamsterImage:hover {
+  transform: scale(1.1);
 }
 .CRD {
   position: relative;
@@ -687,13 +683,16 @@
   border-radius: 15px;
 }
 .HamsterImage1 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.HamsterImage1:hover {
+  transform: scale(1.1);
 }
 .CH {
   position: relative;
@@ -703,16 +702,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .Mo12{
-    position: relative;
-    top: 15px;
-    left: -30px;
-    align-content: center;
-    text-align: center;
-    font-weight: normal;
-    color: #A09C9C;
-    font-size: medium;
-} */
 .More {
   width: 75px;
   height: 40px;
@@ -734,13 +723,16 @@
   border-radius: 15px;
 }
 .HamsterImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.HamsterImage2:hover {
+  transform: scale(1.1);
 }
 .RD {
   position: relative;
@@ -771,13 +763,16 @@
   border-radius: 15px;
 }
 .HamsterImage3 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.HamsterImage3:hover {
+  transform: scale(1.1);
 }
 .SH {
   position: relative;
@@ -814,13 +809,16 @@
   border-radius: 15px;
 }
 .BirdImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.BirdImage:hover {
+  transform: scale(1.1);
 }
 .AG {
   position: relative;
@@ -860,13 +858,16 @@
   border-radius: 15px;
 }
 .BirdImage1 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.BirdImage1:hover {
+  transform: scale(1.1);
 }
 .CL {
   position: relative;
@@ -876,16 +877,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .Mo12{
-    position: relative;
-    top: 15px;
-    left: -30px;
-    align-content: center;
-    text-align: center;
-    font-weight: normal;
-    color: #A09C9C;
-    font-size: medium;
-} */
 .More {
   width: 75px;
   height: 40px;
@@ -907,13 +898,16 @@
   border-radius: 15px;
 }
 .BirdImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.BirdImage2:hover {
+  transform: scale(1.1);
 }
 .EP {
   position: relative;
@@ -944,13 +938,16 @@
   border-radius: 15px;
 }
 .BirdImage3 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.BirdImage3:hover {
+  transform: scale(1.1);
 }
 .GC {
   position: relative;
@@ -988,13 +985,16 @@
   border-radius: 15px;
 }
 .FishImage {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.FishImage:hover {
+  transform: scale(1.1);
 }
 .CC {
   position: relative;
@@ -1034,13 +1034,16 @@
   border-radius: 15px;
 }
 .FishImage1 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.FishImage1:hover {
+  transform: scale(1.1);
 }
 .SF {
   position: relative;
@@ -1050,16 +1053,6 @@
   text-align: center;
   font-size: 18px;
 }
-/* .Mo12{
-    position: relative;
-    top: 15px;
-    left: -30px;
-    align-content: center;
-    text-align: center;
-    font-weight: normal;
-    color: #A09C9C;
-    font-size: medium;
-} */
 .More {
   width: 75px;
   height: 40px;
@@ -1081,13 +1074,16 @@
   border-radius: 15px;
 }
 .FishImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.FishImage2:hover {
+  transform: scale(1.1);
 }
 .O {
   position: relative;
@@ -1124,6 +1120,10 @@
   top: 10px;
   left: 15px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.FishImage3:hover {
+  transform: scale(1.1);
 }
 .GF {
   position: relative;

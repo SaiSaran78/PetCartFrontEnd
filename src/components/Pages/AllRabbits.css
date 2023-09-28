@@ -1,0 +1,105 @@
+.alaskaRabbit {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.rabbitImage {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ASRs {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+}
+.Lifespans {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #a09c9c;
+  font-size: medium;
+}
+.americanRabbit {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.rabbitImage1 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ARs {
+  position: relative;
+  top: 15px;
+  left: -10px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.angoraRabbit {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.rabbitImage2 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ANRs {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.argenteRabbit {
+  width: 240px;
+  height: 325px;
+  position: relative;
+  top: 205px;
+  left: 50px;
+  border-radius: 15px;
+}
+.rabbitImage3 {
+  width: 210px;
+  height: 240px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  border-radius: 5px;
+}
+.ARRs {
+  position: relative;
+  top: 15px;
+  left: -20px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}

@@ -1,0 +1,32 @@
+.snoeshoe {
+  width: 240px;
+  height: 340px;
+  position: relative;
+  top: 155px;
+  left: 50px;
+  border-radius: 15px;
+}
+.catimage2 {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  top: 12px;
+  left: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.SSA {
+  position: relative;
+  top: 15px;
+  left: -35px;
+  align-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.Moa6 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  align-content: center;
+  text-align: center;
+}
