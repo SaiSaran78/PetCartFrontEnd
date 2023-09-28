@@ -10,6 +10,8 @@ import Gallery from "./components/Pages/Gallery";
 import Cart from "./components/Pages/Cart";
 import SignUpOTP from "./components/Pages/SignUpOTP";
 import Page404 from "./components/Pages/Page404";
+import Orders from "./components/Pages/orders";
+import YourAccount from "./components/Pages/YourAccount";
 function App() {
   const [status, setStatus] = useState("Logout");
   function loginStatus(data) {
@@ -20,7 +22,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/signup" element={<SignUP />} />
-          <Route path="/signupotp" element={<SignUpOTP update={loginStatus}/>} />
+          <Route
+            path="/signupotp"
+            element={<SignUpOTP update={loginStatus} />}
+          />
           <Route path="/" element={<Login />} />
           <Route path="/otp" element={<OTP update={loginStatus} />} />
           <Route
@@ -46,6 +51,14 @@ function App() {
           <Route
             path="/*"
             element={<Page404 update={loginStatus} status={status} />}
+          />
+          <Route
+            path="/orders"
+            element={<Orders update={loginStatus} status={status} />}
+          />
+          <Route
+            path="/your account"
+            element={<YourAccount update={loginStatus} status={status} />}
           />
         </Routes>
       </BrowserRouter>

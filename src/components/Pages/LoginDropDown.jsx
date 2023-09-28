@@ -13,10 +13,21 @@ const LoginDropDown = ({update}) => {
   };
 
   const handleItemClick = (item) => {
-    update("Logout");
+    update("item");
     if (item === "Your Account") {
       setButtonLabel("Your Account");
-      clearTimeout(timeoutId);
+      const newTimeoutId = setTimeout(() => {
+        setButtonLabel("Your Account");
+      }, 100000);
+      setTimeoutId(newTimeoutId);
+    }else if(item === "Your Order"){
+      setButtonLabel("Your Order");
+      const newTimeoutId = setTimeout(() => {
+        setButtonLabel("Your Order");
+      }, 100000);
+      setTimeoutId(newTimeoutId);
+    }else if(item === "Logout"){
+      setButtonLabel("Logout");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Logout");
       }, 100000);
@@ -44,7 +55,7 @@ const LoginDropDown = ({update}) => {
           <ul className="list-group">
             <li className="list-group-item">
               <Link
-                to="/your-account"
+                to="/your account"
                 onClick={() => handleItemClick("Your Account")}
               >
                 Your Account
@@ -52,7 +63,7 @@ const LoginDropDown = ({update}) => {
             </li>
             <li className="list-group-item">
               <Link
-                to="/YourOrder"
+                to="/orders"
                 onClick={() => handleItemClick("Your Order")}
               >
                 Your Order

@@ -10,6 +10,8 @@ import Gallery from "./Gallery.jsx";
 import Cart from "./Cart";
 import LoginDropDown from "./LoginDropDown";
 import Home from "./LandingPath";
+import YourAccount from "./YourAccount";
+import Orders from "./orders";
 const Header = (props) => {
   const [selectedAnimal, setSelectedAnimal] = useState("cats");
   const navigate = useNavigate();
@@ -95,6 +97,12 @@ const Header = (props) => {
         );
       case "gallery":
         return <Gallery />;
+      case "cart":
+        return <Cart/>;
+      case "YourAccount":
+        return <YourAccount/>;
+      case "orders":
+        return <Orders/>;
       default:
         return null;
     }

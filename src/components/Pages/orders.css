@@ -1,0 +1,8 @@
+.Orders {
+  position: relative;
+  top: 110px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
