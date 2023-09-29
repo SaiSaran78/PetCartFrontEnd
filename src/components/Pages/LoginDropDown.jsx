@@ -41,14 +41,14 @@ const LoginDropDown = ({ update }) => {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <button onClick={toggleDropdown} className="btn btn-success">
+      <button onClick={toggleDropdown} className="btn">
         <span
           className={`btn-label ${
             buttonLabel === "Your Account" ? "active" : ""
           }`}
         >
           {buttonLabel}
-        </span>{" "}
+        </span>
         <BsFillCaretDownFill size="0.8rem" color="white" className="caret" />
       </button>
       {open && (
@@ -78,5 +78,4 @@ const LoginDropDown = ({ update }) => {
     </div>
   );
 };
-
 export default LoginDropDown;

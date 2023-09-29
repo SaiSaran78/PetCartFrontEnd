@@ -1,13 +1,13 @@
 .login-dropdown {
   color: #f0f0f0;
   position: relative;
-  /* transform: translateY(-10px); */
-  /* transition: opacity 0.3s ease, transform 0.3s ease; */
+  /* transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease; */
 }
 .login-dropdown.open {
   display: block;
-  /* transform: translateY(0); */
-  /* animation: slideDown 0.3s linear; */
+  /* transform: translateY(0); 
+  animation: slideDown 0.3s linear; */
 }
 /* @keyframes slideDown {
   from {
