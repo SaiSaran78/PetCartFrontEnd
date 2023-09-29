@@ -26,7 +26,7 @@
   color: #333;
   font-size: 16px;
   border-radius: 4px;
-  width: 130px;
+  width: 115px;
   height: 45px;
   position: relative;
   top: -5px;
@@ -49,9 +49,10 @@
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  width: 150px;
+  width: 115px;
   border-radius: 4px;
   margin-top: 5px;
+  margin-left: 10px;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -63,14 +64,10 @@
 }
 
 .list-group-item {
-  /* padding: 5px 5px; */
-  position: relative;
-  top: 0px;
-  left: 20px;
+  padding: 5px 5px;
   cursor: pointer;
   font-size: 14px;
   transition: background-color 0.2s;
-  height: 5px;
 }
 
 .list-group-item:hover {
@@ -83,23 +80,4 @@
 
 .caret {
   margin-left: 5px;
-}
-.small-box {
-  /* margin-left: 5px; */
-  
-  width: 100px;
-  height: 25px;
-  background-color: lightblue;
-}
-
-.medium-box {
-  width: 100px;
-  height: 25px;
-  background-color: lightgreen;
-}
-
-.large-box {
-  width: 200px;
-  height: 100px;
-  background-color: lightcoral;
 }

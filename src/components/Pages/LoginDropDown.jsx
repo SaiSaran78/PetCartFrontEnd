@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const LoginDropDown = ({ update }) => {
   const [open, setOpen] = useState(false);
-  const [buttonLabel, setButtonLabel] = useState("Logout", "Your Account", "Your Order");
+  const [buttonLabel, setButtonLabel] = useState("Logout");
   const [timeoutId, setTimeoutId] = useState(null);
 
   const toggleDropdown = () => {
@@ -14,25 +14,24 @@ const LoginDropDown = ({ update }) => {
 
   const handleItemClick = (item) => {
     update("item");
-    // setButtonLabel("item");
     // e.preventdefault();
     if (item === "Your Account") {
       setButtonLabel("Your Account");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Your Account");
-      },1000);
+      });
       setTimeoutId(newTimeoutId);
     } else if (item === "Your Order") {
       setButtonLabel("Your Order");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Your Order");
-      },1000);
+      });
       setTimeoutId(newTimeoutId);
     } else if (item === "Logout") {
       setButtonLabel("Logout");
       const newTimeoutId = setTimeout(() => {
         setButtonLabel("Logout");
-      },1000);
+      });
       setTimeoutId(newTimeoutId);
     }
   };
@@ -55,44 +54,23 @@ const LoginDropDown = ({ update }) => {
       {open && (
         <div className="dropdown-content">
           <ul className="list-group">
-            <li>
-              <button
-                className={`list-group-item ${
-                  buttonLabel === "Your Account" ? "small-box" : "medium-box"
-                }`}
+            <li className="list-group-item">
+              <Link
+                to="/your account"
+                onClick={() => handleItemClick("Your Account")}
               >
-                <Link
-                  to="/your account"
-                  onClick={() => handleItemClick("Your Account")}
-                >
-                  Your Account
-                </Link>
-              </button>
+                Your Account
+              </Link>
             </li>
-            <li>
-              <button
-                className={`list-group-item ${
-                  buttonLabel === "Your Order" ? "small-box" : "medium-box"
-                }`}
-              >
-                <Link
-                  to="/orders"
-                  onClick={() => handleItemClick("Your Order")}
-                >
-                  Your Order
-                </Link>
-              </button>
+            <li className="list-group-item">
+              <Link to="/orders" onClick={() => handleItemClick("Your Order")}>
+                Your Order
+              </Link>
             </li>
-            <li>
-              <button
-                className={`list-group-item ${
-                  buttonLabel === "Logout" ? "small-box" : "medium-box"
-                }`}
-              >
-                <Link to="/home" onClick={() => handleItemClick("Logout")}>
-                  Logout
-                </Link>
-              </button>
+            <li className="list-group-item">
+              <Link to="/home" onClick={() => handleItemClick("Logout")}>
+                Logout
+              </Link>
             </li>
           </ul>
         </div>
