@@ -56,7 +56,7 @@ const Gallery = () => {
               height="200px"
               style={{
                 display: "block",
-                cursor:"pointer",
+                cursor: "pointer",
               }}
               onMouseEnter={() => handleImageHover(index)}
               onMouseLeave={() => handleImageLeave(index)}
