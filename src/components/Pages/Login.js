@@ -135,14 +135,14 @@ const Login = () => {
               ref={emailRef}
             />
           </div>
-          {/* <div>
+          <div>
             {error.email.required ? (
               <p id="emailmsg">Enter an email address</p>
             ) : null}
-            {error.email.invalid ? (
+            {/* {error.email.invalid ? (
               <p id="emailmsg">Enter a valid email address</p>
-            ) : null}
-          </div> */}
+            ) : null} */}
+          </div>
           <div>
             <Button
               type="submit"
