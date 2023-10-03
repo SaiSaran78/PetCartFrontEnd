@@ -1,8 +1,8 @@
 import React, { useState,useRef,useEffect } from "react";
 import "./Login.css";
-import Googleimage from "../../Images/Image.png";
-import Petimage from "../../Images/Image2.png";
-import Button, { Loader, Popup } from "../Assets/components";
+import Googleimage from "../../../Images/Image.png";
+import Petimage from "../../../Images/Image2.png";
+import Button, { Loader, Popup } from "../../Assets/components";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
