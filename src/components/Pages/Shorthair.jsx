@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import CatImage from "../../Images/Imaged3.jpeg";
 import "./AllCats.css";
+import { Link } from "react-router-dom";
 const Shorthair = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const Shorthair = (props) => {
         />
         <h4 className="SHC">Shorthair</h4>
         <h4 className="Moa6">6 Months Old</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );
