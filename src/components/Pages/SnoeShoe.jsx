@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Catimages from "../../Images/Imaged4.jpeg";
-import "./SnoeShoe.css";
+import "./AllCats.css";
 const SnoeShoe = (props) => {
   return (
     <div>

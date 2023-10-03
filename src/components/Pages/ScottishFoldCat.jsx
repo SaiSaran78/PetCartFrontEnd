@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Catimage from "../../Images/Imaged1.jpeg";
-import "./ScottishFoldCat.css";
+import "./AllCats.css";
+import { Link } from "react-router-dom";
 const ScottishFoldCat = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const ScottishFoldCat = (props) => {
         />
         <h4 className="SFC">Scottish Fold</h4>
         <h4 className="Moa8">8 Months Old</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

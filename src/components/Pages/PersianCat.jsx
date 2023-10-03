@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Catimaged from "../../Images/Imaged5.jpeg";
-import "./PersianCat.css";
+import "./AllCats.css";
+import { Link } from "react-router-dom";
 const PersianCat = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const PersianCat = (props) => {
         />
         <h4 className="PCS">Persian Cat</h4>
         <h4 className="Moa12">12 Months Old</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

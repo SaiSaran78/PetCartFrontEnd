@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import CatImage from "../../Images/Imaged3.jpeg";
-import "./Shorthair.css";
+import "./AllCats.css";
 const Shorthair = (props) => {
   return (
     <div>
