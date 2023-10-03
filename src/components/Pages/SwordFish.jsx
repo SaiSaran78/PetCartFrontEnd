@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Fishimaged from "../../Images/SwordFish.jpg";
 import "./AllFishes.css";
+import { Link } from "react-router-dom";
 const SwordFish = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const SwordFish = (props) => {
         />
         <h4 className="SFs">Sword Fish</h4>
         <h4 className="Lifespans">9yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

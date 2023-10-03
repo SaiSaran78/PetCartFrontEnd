@@ -1,6 +1,7 @@
 .commonCrap {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -16,24 +17,50 @@
 }
 .CCs {
   position: relative;
-  top: 15px;
-  left: -12px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
+  font-size: 30px;
 }
 .Lifespans {
   position: relative;
-  top: 15px;
-  left: -30px;
+  top: -200px;
+  left: 260px;
   align-content: center;
   text-align: center;
   font-weight: normal;
   color: #a09c9c;
-  font-size: medium;
+  font-size: 25px;
+}
+.ATC {
+  width: 110px;
+  height: 50px;
+  font-weight: medium;
+  font-size: 20px;
+  position: relative;
+  top: -60px;
+  left: 5px;
+}
+.ATC:hover {
+  background-color: #daa520;
+}
+.BN {
+  width: 110px;
+  height: 50px;
+  font-weight: medium;
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+  left: 15px;
+}
+.BN:hover {
+  background-color: #daa520;
 }
 .swordFish {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -49,22 +76,22 @@
 }
 .SFs {
   position: relative;
-  top: 15px;
-  left: -10px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }
 .oscar {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
   border-radius: 15px;
 }
 .fishImage2 {
-  /* border-radius: 80px; */
   width: 210px;
   height: 240px;
   position: relative;
@@ -74,15 +101,16 @@
 }
 .Os {
   position: relative;
-  top: 15px;
-  left: -20px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }
 .goldFish {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -98,9 +126,9 @@
 }
 .GFs {
   position: relative;
-  top: 15px;
-  left: -20px;
+  top: -200px;
+  left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }

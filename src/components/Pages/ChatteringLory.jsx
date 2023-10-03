@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import BirdImage from "../../Images/ChatteringLory.avif";
 import "./AllBirds.css";
+import { Link } from "react-router-dom";
 const ChatteringLory = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const ChatteringLory = (props) => {
         />
         <h4 className="CLs">Chattering Lory</h4>
         <h4 className="Lifespans">20 yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import FishImage from "../../Images/GoldFish.jpg";
 import "./AllFishes.css";
+import { Link } from "react-router-dom";
 const GoldFish = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const GoldFish = (props) => {
         />
         <h4 className="GFs">Gold Fish</h4>
         <h4 className="Lifespans">30Yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

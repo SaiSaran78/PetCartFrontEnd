@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Fishimage from "../../Images/CommonCrap.jpg";
 import "./AllFishes.css";
+import { Link } from "react-router-dom";
 const CommonCrap = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const CommonCrap = (props) => {
         />
         <h4 className="CCs">Common Crap</h4>
         <h4 className="Lifespans">47Yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
 import RabbitImage from "../../Images/American Rabbit.webp";
+import { Link } from "react-router-dom";
 import "./AllRabbits.css";
+
 const AmericanRabbit = (props) => {
   return (
     <div>
@@ -16,6 +18,12 @@ const AmericanRabbit = (props) => {
         />
         <h4 className="ARs">AmericanRabbit</h4>
         <h4 className="Lifespans">8-10yrs span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

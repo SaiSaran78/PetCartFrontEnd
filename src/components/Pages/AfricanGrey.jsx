@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Birdimage from "../../Images/AfricanGrey.avif";
 import "./AllBirds.css";
+import { Link } from "react-router-dom";
 const AfricanGrey = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const AfricanGrey = (props) => {
         />
         <h4 className="AGs">African Grey</h4>
         <h4 className="Lifespans">40-50Yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATCs">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BNs">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

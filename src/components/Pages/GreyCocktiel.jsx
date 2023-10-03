@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Birdimaged from "../../Images/GreyCocktiel.avif";
 import "./AllBirds.css";
+import { Link } from "react-router-dom";
 const GreyCocktiel = (props) => {
   return (
     <div>
@@ -14,8 +15,14 @@ const GreyCocktiel = (props) => {
           width="200px"
           height="200px"
         />
-        <h4 className="GC">Grey Cocktiel</h4>
-        <h4 className="Lifespan">16-25Yrs Span</h4>
+        <h4 className="GCs">Grey Cocktiel</h4>
+        <h4 className="Lifespans">16-25Yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

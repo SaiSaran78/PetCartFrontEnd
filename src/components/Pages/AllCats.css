@@ -2,7 +2,7 @@
   width: 240px;
   height: 340px;
   position: relative;
-  background-color: #f5f5f5;
+  background-color: #f5deb3;
   top: 155px;
   left: 50px;
   border-radius: 15px;
@@ -13,8 +13,7 @@
   position: relative;
   top: 12px;
   left: 15px;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+  border-radius: 10px; 
 }
 .SFC {
   display: flex;
@@ -23,7 +22,7 @@
   left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .Moa8 {
   position: relative;
@@ -33,7 +32,7 @@
   text-align: center;
   font-weight: normal;
   color: #a09c9c;
-  font-size: 30px;
+  font-size: 20px;
 }
 .ATC {
   width: 110px;
@@ -62,7 +61,7 @@
 .PersianCats {
   width: 240px;
   height: 340px;
-  background-color: #f5f5f5;
+  background-color: #f5deb3;
   position: relative;
   top: 155px;
   left: 50px;
@@ -75,7 +74,6 @@
   top: 12px;
   left: 15px;
   border-radius: 10px;
-  transition: transform 0.3s ease;
 }
 .PCS {
   position: relative;
@@ -83,7 +81,7 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .Moa12 {
   position: relative;
@@ -91,12 +89,12 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 .snoeshoe {
   width: 240px;
   height: 340px;
-  background-color: #f5f5f5;
+  background-color: #f5deb3;
   position: relative;
   top: 155px;
   left: 50px;
@@ -109,7 +107,6 @@
   top: 12px;
   left: 15px;
   border-radius: 10px;
-  transition: transform 0.3s ease;
 }
 .SSA {
   position: relative;
@@ -117,7 +114,7 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .Moa6 {
   position: relative;
@@ -125,12 +122,12 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 .shorthair {
   width: 240px;
   height: 340px;
-  background-color: #f5f5f5;
+  background-color: #f5deb3;
   position: relative;
   top: 155px;
   left: 50px;
@@ -143,7 +140,6 @@
   top: 12px;
   left: 15px;
   border-radius: 10px;
-  transition: transform 0.3s ease;
 }
 .SHC {
   position: relative;
@@ -151,7 +147,7 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .Moa6 {
   position: relative;
@@ -159,5 +155,5 @@
   left: 270px;
   align-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }

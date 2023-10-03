@@ -1,6 +1,7 @@
 .africanGrey {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -16,24 +17,50 @@
 }
 .AGs {
   position: relative;
-  top: 15px;
-  left: -12px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
+  font-size: 40px;
 }
 .Lifespans {
   position: relative;
-  top: 15px;
-  left: -30px;
+  top: -200px;
+  left: 270px;
   align-content: center;
   text-align: center;
   font-weight: normal;
   color: #a09c9c;
-  font-size: medium;
+  font-size: 30px;
+}
+.ATCs {
+  width: 110px;
+  height: 50px;
+  font-weight: medium;
+  font-size: 20px;
+  position: relative;
+  top: -78px;
+  left: 5px;
+}
+.ATC:hover {
+  background-color: #daa520;
+}
+.BNs {
+  width: 110px;
+  height: 50px;
+  font-weight: medium;
+  font-size: 20px;
+  position: relative;
+  top: -65px;
+  left: 15px;
+}
+.BN:hover {
+  background-color: #daa520;
 }
 .chatteringLory {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -49,15 +76,16 @@
 }
 .CLs {
   position: relative;
-  top: 15px;
-  left: -10px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }
 .eclectusParrot {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -73,15 +101,16 @@
 }
 .EPs {
   position: relative;
-  top: 15px;
-  left: -20px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }
 .greyCocktiel {
   width: 240px;
   height: 325px;
+  background-color: #f5deb3;
   position: relative;
   top: 205px;
   left: 50px;
@@ -97,9 +126,9 @@
 }
 .GCs {
   position: relative;
-  top: 15px;
-  left: -20px;
+  top: -200px;
+  left: 300px;
   align-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }

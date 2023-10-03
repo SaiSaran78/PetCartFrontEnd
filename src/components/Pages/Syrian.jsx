@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Hamsterimaged from "../../Images/SyrianHamster.avif";
 import "./AllHamster.css";
+import { Link } from "react-router-dom";
 const SyrianHamster = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const SyrianHamster = (props) => {
         />
         <h4 className="SHs">SyrianHamster</h4>
         <h4 className="Lifespans">2-3yrs span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

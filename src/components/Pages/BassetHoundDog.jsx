@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Dogimages from "../../Images/Basset Hound Dog .webp";
 import "./AllDogs.css";
+import { Link } from "react-router-dom";
 const BassetHound = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const BassetHound = (props) => {
         />
         <h4 className="BHDs">BassetHound</h4>
         <h4 className="Lifespane">9-10yrs span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

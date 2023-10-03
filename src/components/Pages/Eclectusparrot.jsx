@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Birdimages from "../../Images/ECLECTUS PARROT.avif";
 import "./AllBirds.css";
+import { Link } from "react-router-dom";
 const ECLECTUSParrot = (props) => {
   return (
     <div>
@@ -16,6 +17,12 @@ const ECLECTUSParrot = (props) => {
         />
         <h4 className="EPs">Eclectus Parrot</h4>
         <h4 className="Lifespans">30-40yrs Span</h4>
+        <Link to="/cart">
+          <button className="ATC">Add to Cart</button>
+        </Link>
+        <Link to="/orders">
+          <button className="BN">Buy Now</button>
+        </Link>
       </div>
     </div>
   );
