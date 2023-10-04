@@ -1,7 +1,7 @@
 import React,{useState,useEffect,useRef} from "react";
 import './SignUpOTP.css';
-import Petimage from '../../Images/Image2.png';
-import Button,{Popup,Loader} from "../Assets/components";
+import Petimage from '../../../Images/Image2.png';
+import Button,{Popup,Loader} from "../../Assets/components";
 import { Link, useNavigate } from "react-router-dom";
 const SignUpOTP=({update})=>{
     const nav = useNavigate()

@@ -8,7 +8,7 @@ import AboutUs from "./components/Pages/AboutUs";
 import Collections from "./components/Pages/Collections";
 import Gallery from "./components/Pages/Gallery";
 import Cart from "./components/Pages/Cart";
-import SignUpOTP from "./components/Pages/SignUpOTP";
+import SignUpOTP from "./components/Pages/SignUpOTP/SignUpOTP";
 import Page404 from "./components/Pages/Page404";
 import Orders from "./components/Pages/orders";
 import YourAccount from "./components/Pages/YourAccount";
