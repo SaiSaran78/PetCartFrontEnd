@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Signup.css";
-import Petimage from "../../Images/Image2.png";
-import Button from "../Assets/components";
+import Petimage from "../../../Images/Image2.png";
+import Button from "../../Assets/components";
 import { Link } from "react-router-dom";
 const SignUP = () => {
   const [formData, setFormData] = useState({

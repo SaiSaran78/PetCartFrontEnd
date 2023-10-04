@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SignUP from "./components/Pages/SignUp";
+import SignUP from "./components/Pages/SignUp/SignUp";
 import Login from "./components/Pages/Login/Login";
 import OTP from "./components/Pages/OTP";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
