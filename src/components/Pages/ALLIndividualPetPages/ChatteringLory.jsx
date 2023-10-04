@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Dogimages from "../../Images/Basset Hound Dog .webp";
-import "./AllDogs.css";
+import Header from "../Header/Header";
+import BirdImage from "../../../Images/ChatteringLory.avif";
+import "./AllBirds.css";
 import { Link } from "react-router-dom";
-const BassetHound = (props) => {
+const ChatteringLory = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="bassetHound">
+      <div className="chatteringLory">
         <img
-          className="dogImage2"
-          src={Dogimages}
+          className="birdImage1"
+          src={BirdImage}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="BHDs">BassetHound</h4>
-        <h4 className="Lifespane">9-10yrs span</h4>
+        <h4 className="CLs">Chattering Lory</h4>
+        <h4 className="Lifespans">20 yrs Span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const BassetHound = (props) => {
     </div>
   );
 };
-export default BassetHound;
+export default ChatteringLory;

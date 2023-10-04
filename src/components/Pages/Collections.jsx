@@ -7,7 +7,7 @@ import Rabbit from "./Rabbit";
 import Hamster from "./Hamster";
 import Birds from "./Birds";
 import Fishes from "./Fishes";
-import Header from "./Header";
+import Header from "./Header/Header";
 
 const Collections = (props) => {
   const [selectedAnimal, setSelectedAnimal] = useState("cats");

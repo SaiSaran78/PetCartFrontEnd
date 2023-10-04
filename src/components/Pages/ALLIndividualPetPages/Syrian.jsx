@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import CatImage from "../../Images/Imaged3.jpeg";
-import "./AllCats.css";
+import Header from "../Header/Header";
+import Hamsterimaged from "../../../Images/SyrianHamster.avif";
+import "./AllHamster.css";
 import { Link } from "react-router-dom";
-const Shorthair = (props) => {
+const SyrianHamster = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="shorthair">
+      <div className="syrianHamster">
         <img
-          className="catimage3"
-          src={CatImage}
+          className="hamsterImage3"
+          src={Hamsterimaged}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="SHC">Shorthair</h4>
-        <h4 className="Moa6">6 Months Old</h4>
+        <h4 className="SHs">SyrianHamster</h4>
+        <h4 className="Lifespans">2-3yrs span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const Shorthair = (props) => {
     </div>
   );
 };
-export default Shorthair;
+export default SyrianHamster;

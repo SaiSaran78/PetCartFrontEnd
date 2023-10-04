@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Petimage from "../../Images/Image2.png";
+import Petimage from "../../../Images/Image2.png";
 import { Link, useNavigate } from "react-router-dom";
 import { BsSearch, BsFillCartFill } from "react-icons/bs";
-import Button from "../Assets/components";
-import AboutUs from "./AboutUs/AboutUs";
-import Collections from "./Collections";
-import Gallery from "./Gallery.jsx";
-import Cart from "./Cart";
-import LoginDropDown from "./LoginDropDown";
-import Home from "./LandingPath";
-import YourAccount from "./YourAccount";
-import Orders from "./orders";
+import Button from "../../Assets/components";
+import AboutUs from "../AboutUs/AboutUs";
+import Collections from "../Collections";
+import Gallery from "../Gallery.jsx";
+import Cart from "../Cart";
+import LoginDropDown from "../LoginDropDown";
+import Home from "../LandingPath";
+import YourAccount from "../YourAccount";
+import Orders from "../orders";
 const Header = (props) => {
   const [selectedAnimal, setSelectedAnimal] = useState("cats");
   const navigate = useNavigate();

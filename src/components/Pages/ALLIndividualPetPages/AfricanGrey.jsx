@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Birdimage from "../../Images/AfricanGrey.avif";
+import Header from "../Header/Header";
+import Birdimage from "../../../Images/AfricanGrey.avif";
 import "./AllBirds.css";
 import { Link } from "react-router-dom";
 const AfricanGrey = (props) => {

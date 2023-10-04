@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Hamsterimage from "../../Images/Campbells russian dwarf.avif";
-import "./AllHamster.css";
+import Header from "../Header/Header";
+import Rabbitimage from "../../../Images/Alaska schwarz rabbit.webp";
+import "./AllRabbits.css";
 import { Link } from "react-router-dom";
-const CampbellsRussianHamster = (props) => {
+const AlaskaRabbit = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="campbellsRussianDrawf">
+      <div className="alaskaRabbit">
         <img
-          className="hamsterImage"
-          src={Hamsterimage}
+          className="rabbitImage"
+          src={Rabbitimage}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="CRDs">CampbellsRussian</h4>
-        <h4 className="Lifespans">2.5-3Yrs span</h4>
+        <h4 className="ASRs">AlaskaRabbit</h4>
+        <h4 className="Lifespans">7-10Yrs span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const CampbellsRussianHamster = (props) => {
     </div>
   );
 };
-export default CampbellsRussianHamster;
+export default AlaskaRabbit;

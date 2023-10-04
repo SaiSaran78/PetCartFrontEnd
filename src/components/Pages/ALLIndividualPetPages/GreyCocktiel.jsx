@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import DogImage from "../../Images/Akita Dog.webp";
-import "./AllDogs.css";
+import Header from "../Header/Header";
+import Birdimaged from "../../../Images/GreyCocktiel.avif";
+import "./AllBirds.css";
 import { Link } from "react-router-dom";
-const AkitaDog = (props) => {
+const GreyCocktiel = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="akitaDog">
+      <div className="greyCocktiel">
         <img
-          className="dogImage1"
-          src={DogImage}
+          className="BirdImage3"
+          src={Birdimaged}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="ADs">Akita Dog</h4>
-        <h4 className="Lifespane">10-12yrs span</h4>
+        <h4 className="GCs">Grey Cocktiel</h4>
+        <h4 className="Lifespans">16-25Yrs Span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const AkitaDog = (props) => {
     </div>
   );
 };
-export default AkitaDog;
+export default GreyCocktiel;

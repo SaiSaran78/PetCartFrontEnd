@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Rabbitimage from "../../Images/Alaska schwarz rabbit.webp";
+import Header from "../Header/Header";
+import Rabbitimaged from "../../../Images/Argente rabbit.webp";
 import "./AllRabbits.css";
 import { Link } from "react-router-dom";
-const AlaskaRabbit = (props) => {
+const ArgenteRabbit = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="alaskaRabbit">
+      <div className="argenteRabbit">
         <img
-          className="rabbitImage"
-          src={Rabbitimage}
+          className="rabbitImage3"
+          src={Rabbitimaged}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="ASRs">AlaskaRabbit</h4>
-        <h4 className="Lifespans">7-10Yrs span</h4>
+        <h4 className="ARRs">ArgenteRabbit</h4>
+        <h4 className="Lifespans">7-10yrs span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const AlaskaRabbit = (props) => {
     </div>
   );
 };
-export default AlaskaRabbit;
+export default ArgenteRabbit;

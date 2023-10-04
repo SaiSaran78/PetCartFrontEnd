@@ -1,6 +1,6 @@
 import React from "react";
 import "./orders.css";
-import Header from "./Header";
+import Header from "./Header/Header";
 const Orders = (props) => {
   return (
     <div>

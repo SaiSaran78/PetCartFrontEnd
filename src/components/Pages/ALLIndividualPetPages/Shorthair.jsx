@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import FishImage from "../../Images/GoldFish.jpg";
-import "./AllFishes.css";
+import Header from "../Header/Header";
+import CatImage from "../../../Images/Imaged3.jpeg";
+import "./AllCats.css";
 import { Link } from "react-router-dom";
-const GoldFish = (props) => {
+const Shorthair = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="goldFish">
+      <div className="shorthair">
         <img
-          className="fishImage3"
-          src={FishImage}
+          className="catimage3"
+          src={CatImage}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="GFs">Gold Fish</h4>
-        <h4 className="Lifespans">30Yrs Span</h4>
+        <h4 className="SHC">Shorthair</h4>
+        <h4 className="Moa6">6 Months Old</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const GoldFish = (props) => {
     </div>
   );
 };
-export default GoldFish;
+export default Shorthair;

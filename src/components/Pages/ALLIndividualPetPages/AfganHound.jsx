@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Catimage from "../../Images/Imaged1.jpeg";
-import "./AllCats.css";
+import Header from "../Header/Header";
+import Dogimage from "../../../Images/Afghan Hounds Dog.webp";
+import "./AllDogs.css";
 import { Link } from "react-router-dom";
-const ScottishFoldCat = (props) => {
+const AfghanHounds = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="ScottishFoldCat">
+      <div className="afghanHounds">
         <img
-          className="catimage"
-          src={Catimage}
+          className="dogImage"
+          src={Dogimage}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="SFC">Scottish Fold</h4>
-        <h4 className="Moa8">8 Months Old</h4>
+        <h4 className="AHs">Afghan Hounds</h4>
+        <h4 className="Lifespane">13-14Yrs span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const ScottishFoldCat = (props) => {
     </div>
   );
 };
-export default ScottishFoldCat;
+export default AfghanHounds;

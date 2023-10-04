@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Gallery.css";
-import Header from "./Header";
+import Header from "./Header/Header";
 import gsap from "gsap";
 import Galleryimaged from "../../Images/Gallery1.jpeg";
 import Galleryimage from "../../Images/Gallery2.jpeg";

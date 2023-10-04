@@ -1,6 +1,6 @@
 import React from "react";
 import "./YourAccount.css";
-import Header from "./Header";
+import Header from "./Header/Header";
 
 const YourAccount = (props) => {
   return (

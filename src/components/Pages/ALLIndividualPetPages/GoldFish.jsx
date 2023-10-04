@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Catimages from "../../Images/Imaged4.jpeg";
-import "./AllCats.css";
+import Header from "../Header/Header";
+import FishImage from "../../../Images/GoldFish.jpg";
+import "./AllFishes.css";
 import { Link } from "react-router-dom";
-const SnoeShoe = (props) => {
+const GoldFish = (props) => {
   return (
     <div>
       <Header update={props.update} status={props.status} />
-      <div className="snoeshoe">
+      <div className="goldFish">
         <img
-          className="catimage2"
-          src={Catimages}
+          className="fishImage3"
+          src={FishImage}
           alt="petanimals"
           width="200px"
           height="200px"
         />
-        <h4 className="SSA">Snoeshoe</h4>
-        <h4 className="Moa6">6 Months Old</h4>
+        <h4 className="GFs">Gold Fish</h4>
+        <h4 className="Lifespans">30Yrs Span</h4>
         <Link to="/cart">
           <button className="ATC">Add to Cart</button>
         </Link>
@@ -27,4 +27,4 @@ const SnoeShoe = (props) => {
     </div>
   );
 };
-export default SnoeShoe;
+export default GoldFish;

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Rabbitimages from "../../Images/Angora Rabbit.webp";
+import Header from "../Header/Header";
+import Rabbitimages from "../../../Images/Angora Rabbit.webp";
 import "./AllRabbits.css";
 import { Link } from "react-router-dom";
 const AngoraRabbit = (props) => {

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Fishimages from "../../Images/Oscar.jpg";
+import Header from "../Header/Header";
+import Fishimages from "../../../Images/Oscar.jpg";
 import "./AllFishes.css";
 const Oscar = (props) => {
   return (
