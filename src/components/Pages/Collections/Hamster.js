@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Hamsterimage from "../../Images/Campbells russian dwarf.avif";
-import HamsterImage from "../../Images/Chinese hamster.webp";
-import Hamsterimages from "../../Images/robo dwarf.avif";
-import Hamsterimaged from "../../Images/SyrianHamster.avif";
+import Hamsterimage from "../../../Images/Campbells russian dwarf.avif";
+import HamsterImage from "../../../Images/Chinese hamster.webp";
+import Hamsterimages from "../../../Images/robo dwarf.avif";
+import Hamsterimaged from "../../../Images/SyrianHamster.avif";
 import { Link } from "react-router-dom";
 const Hamster = () => {
   const [showDetails, setShowDetails] = useState({

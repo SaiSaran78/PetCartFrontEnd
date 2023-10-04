@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Birdimage from "../../Images/AfricanGrey.avif";
-import BirdImage from "../../Images/ChatteringLory.avif";
-import Birdimages from "../../Images/ECLECTUS PARROT.avif";
-import Birdimaged from "../../Images/GreyCocktiel.avif";
+import Birdimage from "../../../Images/AfricanGrey.avif";
+import BirdImage from "../../../Images/ChatteringLory.avif";
+import Birdimages from "../../../Images/ECLECTUS PARROT.avif";
+import Birdimaged from "../../../Images/GreyCocktiel.avif";
 import { Link } from "react-router-dom";
 const Birds = () => {
   const [showDetails, setShowDetails] = useState({

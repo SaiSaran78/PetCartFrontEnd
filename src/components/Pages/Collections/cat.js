@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Catimage from "../../Images/Imaged1.jpeg";
-import CatImage from "../../Images/Imaged3.jpeg";
-import Catimages from "../../Images/Imaged4.jpeg";
-import Catimaged from "../../Images/Imaged5.jpeg";
-// import ScottishFoldCat from "./ScottishFoldCat";
+import Catimage from "../../../Images/Imaged1.jpeg";
+import CatImage from "../../../Images/Imaged3.jpeg";
+import Catimages from "../../../Images/Imaged4.jpeg";
+import Catimaged from "../../../Images/Imaged5.jpeg";
 import { Link } from "react-router-dom";
 const Cat = () => {
   const [showDetails, setShowDetails] = useState({

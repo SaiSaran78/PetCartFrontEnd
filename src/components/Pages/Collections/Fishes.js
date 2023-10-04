@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Fishimage from "../../Images/CommonCrap.jpg";
-import FishImage from "../../Images/GoldFish.jpg";
-import Fishimages from "../../Images/Oscar.jpg";
-import Fishimaged from "../../Images/SwordFish.jpg";
+import Fishimage from "../../../Images/CommonCrap.jpg";
+import FishImage from "../../../Images/GoldFish.jpg";
+import Fishimages from "../../../Images/Oscar.jpg";
+import Fishimaged from "../../../Images/SwordFish.jpg";
 import { Link } from "react-router-dom";
 const Fishes = () => {
   const [showDetails, setShowDetails] = useState({

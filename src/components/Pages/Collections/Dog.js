@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Dogimage from "../../Images/Afghan Hounds Dog.webp";
-import DogImage from "../../Images/Akita Dog.webp";
-import Dogimages from "../../Images/Basset Hound Dog .webp";
-import Dogimaged from "../../Images/Bull-dog.webp";
+import Dogimage from "../../../Images/Afghan Hounds Dog.webp";
+import DogImage from "../../../Images/Akita Dog.webp";
+import Dogimages from "../../../Images/Basset Hound Dog .webp";
+import Dogimaged from "../../../Images/Bull-dog.webp";
 import { Link } from "react-router-dom";
 const Dog = () => {
   const [showDetails, setShowDetails] = useState({

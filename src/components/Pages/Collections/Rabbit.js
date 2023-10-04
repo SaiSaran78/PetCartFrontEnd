@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Rabbitimage from "../../Images/Alaska schwarz rabbit.webp";
-import RabbitImage from "../../Images/American Rabbit.webp";
-import Rabbitimages from "../../Images/Angora Rabbit.webp";
-import Rabbitimaged from "../../Images/Argente rabbit.webp";
+import Rabbitimage from "../../../Images/Alaska schwarz rabbit.webp";
+import RabbitImage from "../../../Images/American Rabbit.webp";
+import Rabbitimages from "../../../Images/Angora Rabbit.webp";
+import Rabbitimaged from "../../../Images/Argente rabbit.webp";
 import { Link } from "react-router-dom";
 const Rabbit = () => {
   const [showDetails, setShowDetails] = useState({

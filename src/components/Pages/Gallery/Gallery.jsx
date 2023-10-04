@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./Gallery.css";
-import Header from "./Header/Header";
+import Header from "../Header/Header";
 import gsap from "gsap";
-import Galleryimaged from "../../Images/Gallery1.jpeg";
-import Galleryimage from "../../Images/Gallery2.jpeg";
-import GalleryImage from "../../Images/Gallery3.jpeg";
-import Galleryimages from "../../Images/Gallery4.jpeg";
-import Galleryedimaged from "../../Images/Gallery5.jpeg";
+import Galleryimaged from "../../../Images/Gallery1.jpeg";
+import Galleryimage from "../../../Images/Gallery2.jpeg";
+import GalleryImage from "../../../Images/Gallery3.jpeg";
+import Galleryimages from "../../../Images/Gallery4.jpeg";
+import Galleryedimaged from "../../../Images/Gallery5.jpeg";
 const Gallery = () => {
   const images = [
     Galleryimaged,
