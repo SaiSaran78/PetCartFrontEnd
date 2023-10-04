@@ -7,7 +7,7 @@ import Home from "./components/Pages/LandingPath";
 import AboutUs from "./components/Pages/AboutUs/AboutUs";
 import Collections from "./components/Pages/Collections";
 import Gallery from "./components/Pages/Gallery";
-import Cart from "./components/Pages/Cart";
+import Cart from "./components/Pages/Cart/Cart";
 import SignUpOTP from "./components/Pages/SignUpOTP/SignUpOTP";
 import Page404 from "./components/Pages/Page404";
 import Orders from "./components/Pages/orders";

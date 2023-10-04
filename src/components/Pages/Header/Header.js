@@ -7,7 +7,7 @@ import Button from "../../Assets/components";
 import AboutUs from "../AboutUs/AboutUs";
 import Collections from "../Collections";
 import Gallery from "../Gallery.jsx";
-import Cart from "../Cart";
+import Cart from "../Cart/Cart";
 import LoginDropDown from "../LoginDropDown";
 import Home from "../LandingPath";
 import YourAccount from "../YourAccount";
