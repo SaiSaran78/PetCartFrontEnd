@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./OTP.css";
-import Googleimage from "../../Images/Image.png";
-import Petimage from "../../Images/Image2.png";
+import Googleimage from "../../../Images/Image.png";
+import Petimage from "../../../Images/Image2.png";
 import { Link } from "react-router-dom";
-import Button, { Loader, Popup } from "../Assets/components";
+import Button, { Loader, Popup } from "../../Assets/components";
 import { useNavigate } from "react-router-dom";
 
 const OTP = ({update}) => {

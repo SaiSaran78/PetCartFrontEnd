@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SignUP from "./components/Pages/SignUp/SignUp";
 import Login from "./components/Pages/Login/Login";
-import OTP from "./components/Pages/OTP";
+import OTP from "./components/Pages/LoginOTP/OTP";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/LandingPath";
 import AboutUs from "./components/Pages/AboutUs";
