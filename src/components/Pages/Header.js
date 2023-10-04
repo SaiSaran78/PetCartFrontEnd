@@ -4,7 +4,7 @@ import Petimage from "../../Images/Image2.png";
 import { Link, useNavigate } from "react-router-dom";
 import { BsSearch, BsFillCartFill } from "react-icons/bs";
 import Button from "../Assets/components";
-import AboutUs from "./AboutUs";
+import AboutUs from "./AboutUs/AboutUs";
 import Collections from "./Collections";
 import Gallery from "./Gallery.jsx";
 import Cart from "./Cart";

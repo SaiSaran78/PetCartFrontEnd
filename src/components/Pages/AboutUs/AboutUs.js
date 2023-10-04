@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutUs.css";
-import PetImage from "../../Images/Image4.jpg";
-import PetImages from "../../Images/Image5.jpg";
-import PetImaged from "../../Images/Image6.jpg";
-import Petimaged from "../../Images/Image7.png";
-import Header from "./Header";
+import PetImage from "../../../Images/Image4.jpg";
+import PetImages from "../../../Images/Image5.jpg";
+import PetImaged from "../../../Images/Image6.jpg";
+import Petimaged from "../../../Images/Image7.png";
+import Header from "../Header";
 const AboutUs = (props) => {
   return (
     <div>

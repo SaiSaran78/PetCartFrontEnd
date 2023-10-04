@@ -4,7 +4,7 @@ import Login from "./components/Pages/Login/Login";
 import OTP from "./components/Pages/LoginOTP/OTP";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/LandingPath";
-import AboutUs from "./components/Pages/AboutUs";
+import AboutUs from "./components/Pages/AboutUs/AboutUs";
 import Collections from "./components/Pages/Collections";
 import Gallery from "./components/Pages/Gallery";
 import Cart from "./components/Pages/Cart";
