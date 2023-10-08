@@ -7,7 +7,7 @@ import Galleryimage from "../../../Images/Gallery2.jpeg";
 import GalleryImage from "../../../Images/Gallery3.jpeg";
 import Galleryimages from "../../../Images/Gallery4.jpeg";
 import Galleryedimaged from "../../../Images/Gallery5.jpeg";
-const Gallery = () => {
+const Gallery = (props) => {
   const images = [
     Galleryimaged,
     Galleryimage,
@@ -34,7 +34,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <Header />
+      <Header update={props.update} status={props.status}/>
       <div className="OPG">
         <p className="OPetsGallery">OUR Pets GALLERY</p>
       </div>
