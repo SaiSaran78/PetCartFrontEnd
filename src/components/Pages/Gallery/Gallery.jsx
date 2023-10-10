@@ -38,7 +38,7 @@ const Gallery = (props) => {
       <div className="OPG">
         <p className="OPetsGallery">OUR Pets GALLERY</p>
       </div>
-      <div className="Sentences">
+      <div className="Sentence">
         <p className="Cutenessandlove ">
           Unleash the cuteness and fall in love with{" "}
         </p>
