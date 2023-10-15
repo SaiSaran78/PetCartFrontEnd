@@ -121,13 +121,13 @@ const Header = (props) => {
     <div>
       <div className="mainheading">
         <div className="Round">
-          <img
+          <Link to ="/home" ><img
             className="animal"
             src={Petimage}
             alt="Pet"
             width="25px"
             height="20px"
-          ></img>
+          ></img></Link>
         </div>
         <div className="Home">
           <Link
