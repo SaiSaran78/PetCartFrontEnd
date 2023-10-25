@@ -47,7 +47,7 @@ const Login = () => {
     const isValidEmail =
       emailPattern.test(value.email) || validEmails[value.email];
     setError({
-      ...error,
+      ...error,  // by using Spread opeator(...) to expand the object expression
       email: {
         required: value.email === "",
         invalid: value.email !== "" && !isValidEmail,
@@ -200,3 +200,6 @@ const Login = () => {
   );
 };
 export default Login;
+  
+
+// Syntax for spread opertor is let variablename1 = [...value]; 
